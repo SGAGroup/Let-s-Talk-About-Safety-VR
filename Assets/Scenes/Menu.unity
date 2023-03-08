@@ -6280,13 +6280,13 @@ Transform:
   - {fileID: 1746631075}
   - {fileID: 1895457520}
   - {fileID: 994747139}
+  - {fileID: 759209388}
   - {fileID: 65741568}
   - {fileID: 328369806}
-  - {fileID: 1289209625}
-  - {fileID: 759209388}
-  - {fileID: 310068166}
-  - {fileID: 2043919265}
   - {fileID: 932748936}
+  - {fileID: 1289209625}
+  - {fileID: 2043919265}
+  - {fileID: 310068166}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
