@@ -46,4 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controllerPrefabs:
   - {fileID: 919132149155446097, guid: 10856e44e061a744aa519cf74f4bfc65, type: 3}
-  - {fileID: 919132149155446097, guid: 88f79cedb5f11e0488db5c8706970dbb, type: 3}
+  - {fileID: 919132149155446097, guid: 2d10b9b89f2474de9800b152c3d00004, type: 3}
+  controllerCharacteristics: 0
