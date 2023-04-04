@@ -1,13 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 
 namespace TMPro.Examples
 {
-    
     public class ShaderPropAnimator : MonoBehaviour
     {
-
         private Renderer m_Renderer;
         private Material m_Material;
 

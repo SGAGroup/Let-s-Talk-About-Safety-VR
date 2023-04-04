@@ -1,11 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections;
 
 
 namespace TMPro.Examples
 {
-
     public class TMP_TextSelector_A : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         private TextMeshPro m_TextMeshPro;
@@ -25,7 +24,6 @@ namespace TMPro.Examples
             // Force generation of the text object so we have valid data to work with. This is needed since LateUpdate() will be called before the text object has a chance to generated when entering play mode.
             m_TextMeshPro.ForceMeshUpdate();
         }
-
 
         void LateUpdate()
         {
@@ -139,19 +137,16 @@ namespace TMPro.Examples
             }
         }
 
-
         public void OnPointerEnter(PointerEventData eventData)
         {
             Debug.Log("OnPointerEnter()");
             m_isHoveringObject = true;
         }
 
-
         public void OnPointerExit(PointerEventData eventData)
         {
             Debug.Log("OnPointerExit()");
             m_isHoveringObject = false;
         }
-
     }
 }

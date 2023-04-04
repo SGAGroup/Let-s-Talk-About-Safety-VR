@@ -1,13 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 
 namespace TMPro.Examples
 {
-    
     public class SimpleScript : MonoBehaviour
     {
-
         private TextMeshPro m_textMeshPro;
         //private TMP_FontAsset m_FontAsset;
 
@@ -29,12 +27,12 @@ namespace TMPro.Examples
             // Assign Material to TextMesh Pro Component
             //m_textMeshPro.fontSharedMaterial = Resources.Load("Fonts & Materials/LiberationSans SDF - Bevel", typeof(Material)) as Material;
             //m_textMeshPro.fontSharedMaterial.EnableKeyword("BEVEL_ON");
-            
+
             // Set various font settings.
             m_textMeshPro.fontSize = 48;
 
             m_textMeshPro.alignment = TextAlignmentOptions.Center;
-            
+
             //m_textMeshPro.anchorDampening = true; // Has been deprecated but under consideration for re-implementation.
             //m_textMeshPro.enableAutoSizing = true;
 
@@ -45,14 +43,15 @@ namespace TMPro.Examples
             m_textMeshPro.enableWordWrapping = false;
 
             //textMeshPro.fontColor = new Color32(255, 255, 255, 255);
-        }
 
+            //m_textMeshPro.SetText("{0:0.00}", 15.37567f);
+            //Debug.Log(string.Format("{0:0.0000}", 15.37567f));
+        }
 
         void Update()
         {
             m_textMeshPro.SetText(label, m_frame % 1000);
             m_frame += 1 * Time.deltaTime;
         }
-
     }
 }

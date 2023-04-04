@@ -1,13 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 
 namespace TMPro.Examples
 {
-
     public class WarpTextExample : MonoBehaviour
     {
-
         private TMP_Text m_TextComponent;
 
         public AnimationCurve VertexCurve = new AnimationCurve(new Keyframe(0, 0), new Keyframe(0.25f, 2.0f), new Keyframe(0.5f, 0), new Keyframe(0.75f, 2.0f), new Keyframe(1, 0f));
@@ -20,12 +18,10 @@ namespace TMPro.Examples
             m_TextComponent = gameObject.GetComponent<TMP_Text>();
         }
 
-
         void Start()
         {
             StartCoroutine(WarpText());
         }
-
 
         private AnimationCurve CopyAnimationCurve(AnimationCurve curve)
         {
@@ -35,7 +31,6 @@ namespace TMPro.Examples
 
             return newCurve;
         }
-
 
         /// <summary>
         ///  Method to curve text along a Unity animation curve.
@@ -81,7 +76,6 @@ namespace TMPro.Examples
 
                 float boundsMinX = m_TextComponent.bounds.min.x;  //textInfo.meshInfo[0].mesh.bounds.min.x;
                 float boundsMaxX = m_TextComponent.bounds.max.x;  //textInfo.meshInfo[0].mesh.bounds.max.x;
-
 
 
                 for (int i = 0; i < characterCount; i++)

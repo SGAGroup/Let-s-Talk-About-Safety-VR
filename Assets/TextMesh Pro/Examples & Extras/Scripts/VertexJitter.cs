@@ -1,13 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 
 namespace TMPro.Examples
 {
-
     public class VertexJitter : MonoBehaviour
     {
-
         public float AngleMultiplier = 1.0f;
         public float SpeedMultiplier = 1.0f;
         public float CurveScale = 1.0f;
@@ -41,12 +39,10 @@ namespace TMPro.Examples
             TMPro_EventManager.TEXT_CHANGED_EVENT.Remove(ON_TEXT_CHANGED);
         }
 
-
         void Start()
         {
             StartCoroutine(AnimateVertexColors());
         }
-
 
         void ON_TEXT_CHANGED(Object obj)
         {
@@ -60,7 +56,6 @@ namespace TMPro.Examples
         /// <returns></returns>
         IEnumerator AnimateVertexColors()
         {
-
             // We force an update of the text object since it would only be updated at the end of the frame. Ie. before this code is executed on the first frame.
             // Alternatively, we could yield and wait until the end of the frame when the text object will be generated.
             m_TextComponent.ForceMeshUpdate();
@@ -170,6 +165,5 @@ namespace TMPro.Examples
                 yield return new WaitForSeconds(0.1f);
             }
         }
-
     }
 }
