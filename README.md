@@ -1,23 +1,28 @@
-# Let's Talk About Safety - Version 0.0.1
+# Let-s-Talk-About-Safety-VR
+Репозиторий VR проекта на Unity для 4го семестра.
+Ветка мастер отвечает за проект URP
+Если хотите вносить изменения на базе HDRP - делайте это на отдельной ветке
 
-## Introduction
-I introduce u 2 cool project
+## Оглавление
 
-## Getting started
-Get ready 2 start
+1. [Спецификации](#Спецификации)
+2. [MapMaker](#MapMaker)
+3. [Мудрость на каждый день](#Мудрость-на-каждый-день)
 
-### Requirements
-U need vr headset 2 play obviuosly
+## Спецификации
+Версия Unity 2021.3.16f1
+Используем Unity OpenXR 1.6.0 (Oculus SDK в ветке V1, которая заброшена)
+XR Interaction Toolkit - 2.3.0
+XR Plugin Management - 4.3.3
 
-### Downloading the project
-Well, download the project
+## MapMaker
+Для создания уровней существет папка MapMaker
+Ассеты берём только из папки MapMaker/Prefabs
+Папка models и textures - является служебной
+Если создаёте материалы или сцены их помещать в соответствующие папки в MapMaker'e
 
-## General setup
-Plug-in vr headset in computer
-Play
-
-## Sharing feedback
-Keep ur garbage opinion in urself, mate
-
-## Contributions and pull requests
-Try to contribute and nobody ever find u
+## Мудрость на каждый день
+> - Делаешь курсач?
+> - Я пиво
+____
+**Джейсон Стэтхем**
