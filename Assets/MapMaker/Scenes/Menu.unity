@@ -11868,6 +11868,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitButton
       objectReference: {fileID: 0}
+    - target: {fileID: 3399821747579187769, guid: da3b468b35b58334693dfcd04f6e06a7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da3b468b35b58334693dfcd04f6e06a7, type: 3}
 --- !u!1 &1102874679 stripped
@@ -19081,7 +19086,7 @@ PrefabInstance:
     - target: {fileID: 3759766973193513913, guid: bdb750471b4a07047b93600e69f78626,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3698726
+      value: -1.8698726
       objectReference: {fileID: 0}
     - target: {fileID: 3759766973193513913, guid: bdb750471b4a07047b93600e69f78626,
         type: 3}
@@ -19091,7 +19096,7 @@ PrefabInstance:
     - target: {fileID: 3759766973193513913, guid: bdb750471b4a07047b93600e69f78626,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.0543668
+      value: -0.5543668
       objectReference: {fileID: 0}
     - target: {fileID: 3759766973193513913, guid: bdb750471b4a07047b93600e69f78626,
         type: 3}
@@ -21134,7 +21139,7 @@ PrefabInstance:
     - target: {fileID: 3130556819844574636, guid: da3b468b35b58334693dfcd04f6e06a7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.915
+      value: -0.665
       objectReference: {fileID: 0}
     - target: {fileID: 3130556819844574636, guid: da3b468b35b58334693dfcd04f6e06a7,
         type: 3}
