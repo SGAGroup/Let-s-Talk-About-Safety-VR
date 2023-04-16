@@ -23,6 +23,8 @@ upm-ci.log
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+[Ll]ogs/
+Logs/
 /[Mm]emoryCaptures/
 /[Vv]alidationSuiteResults/
 
