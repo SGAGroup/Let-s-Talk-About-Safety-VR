@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0
+  m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: e11f5b66aad75483b8cd16ee18a0c917, type: 2}
@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 24fc75b3e0e2e90418783da50549a0cb,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 1832ba3758de75c43b0f4b64912b81c2,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 19de622c34ba72c4ea259b2268686a16,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -11871,7 +11871,7 @@ PrefabInstance:
     - target: {fileID: 3399821747579187769, guid: da3b468b35b58334693dfcd04f6e06a7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da3b468b35b58334693dfcd04f6e06a7, type: 3}
@@ -21942,6 +21942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070494614839255973, guid: 5f663f88878da224085fdecc16c42238,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.514
       objectReference: {fileID: 0}
     - target: {fileID: 3070494614839255975, guid: 5f663f88878da224085fdecc16c42238,
         type: 3}

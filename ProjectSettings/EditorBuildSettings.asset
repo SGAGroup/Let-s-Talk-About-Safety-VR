@@ -5,22 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity
     guid: ba755f5a181505a4799b21685d4c7576
-  - enabled: 1
+  - enabled: 0
     path: Assets/MapMaker/Scenes/DebugScene.unity
     guid: 72e6544b103f26546ba1c0ea0ccc7cc4
-  - enabled: 1
+  - enabled: 0
     path: Assets/MapMaker/Scenes/ElectricityExample.unity
     guid: 8e4c33089a8741249a0b1f68e4e533c2
-  - enabled: 1
-    path: Assets/MapMaker/Scenes/Factory.unity
-    guid: c1318cd82da530f4a85b6a6e1aa194e7
   - enabled: 1
     path: Assets/MapMaker/Scenes/Menu.unity
     guid: 1af41b4ecc118824db800135c700cc4e
   - enabled: 1
+    path: Assets/MapMaker/Scenes/Factory.unity
+    guid: c1318cd82da530f4a85b6a6e1aa194e7
+  - enabled: 0
     path: Assets/MapMaker/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:

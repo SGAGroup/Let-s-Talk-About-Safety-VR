@@ -7,6 +7,6 @@ public class StartButton : MonoBehaviour
 {
     public void OnPressHook()
     {
-        SceneManager.LoadScene(3); // 3 - индекс Factory карты в Build
+        SceneManager.LoadScene(1); // 1 - индекс Factory карты в Build
     }
 }
