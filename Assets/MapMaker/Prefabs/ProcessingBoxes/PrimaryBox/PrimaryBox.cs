@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Content.Interaction;
 
 public class PrimaryBox : MonoBehaviour
 {
@@ -6,6 +7,19 @@ public class PrimaryBox : MonoBehaviour
 
     public void OnBreakHook()
     {
-        boxGenerator.RemoveBox(gameObject);
+        if (boxGenerator)
+            boxGenerator.RemoveBox(gameObject);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        GameObject other = collision.gameObject;
+        Durability otherDurability = other.GetComponent<Durability>();
+        if (!otherDurability)
+        {
+            Debug.LogWarning($"No 'Durability' script on {other.name} object");
+            return;
+        }
+        otherDurability.decreaseDurability(10);
     }
 }

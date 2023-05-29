@@ -113,6 +113,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\MapMaker\Prefabs\Assemblers\BasicAssembler\EnergyBoxConsumer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\MapMaker\Prefabs\Hammer\Hammer.cs" />
+    <Compile Include="Assets\Scripts\Durability.cs" />
+    <Compile Include="Assets\MapMaker\Prefabs\Wrench\scripts\Repairer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

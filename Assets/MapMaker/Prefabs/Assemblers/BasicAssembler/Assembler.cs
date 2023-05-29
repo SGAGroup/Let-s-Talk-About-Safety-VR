@@ -26,6 +26,8 @@ public class Assembler : MonoBehaviour
     [SerializeField]
     private Transform goldSpawnPoint;
 
+    private Durability durability => gameObject.GetComponent<Durability>();
+
 
     void Start()
     {
@@ -49,7 +51,7 @@ public class Assembler : MonoBehaviour
 
     public IEnumerator InitiateProcessing(ComponentBox cube)
     {
-        if (remainedEnergy >= consumption)
+        if (remainedEnergy >= consumption && !durability.isBroken)
         {
             if (!goldBoxPrefab.GetComponent<GoldBox>())
             {
@@ -67,6 +69,7 @@ public class Assembler : MonoBehaviour
             goldBox.value = valueOfCube;
 
             RemoveEnergy(consumption);
+            durability.decreaseDurability(10);
         }
     }
 

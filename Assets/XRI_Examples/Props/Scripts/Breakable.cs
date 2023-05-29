@@ -36,6 +36,7 @@ namespace UnityEngine.XR.Content.Interaction
             if (m_Destroyed)
                 return;
 
+
             if (collision.gameObject.tag.Equals(m_ColliderTag, System.StringComparison.InvariantCultureIgnoreCase))
             {
                 m_Destroyed = true;

@@ -1391,6 +1391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5801988554368052947}
   - component: {fileID: 5797188375474160074}
+  - component: {fileID: 1644635316870740567}
   m_Layer: 0
   m_Name: BasicAssembler
   m_TagString: Untagged
@@ -1439,6 +1440,20 @@ MonoBehaviour:
   goldBoxPrefab: {fileID: 3807737931820869154, guid: 24f20b18bd533cf47b5c8ca00728c9fb,
     type: 3}
   goldSpawnPoint: {fileID: 5909986787811952889}
+--- !u!114 &1644635316870740567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5965216134068520737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6549d6a487526564487bff0894317cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDurability: 100
+  durability: 100
 --- !u!1 &6582803863588919826
 GameObject:
   m_ObjectHideFlags: 0
